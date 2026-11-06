@@ -1,0 +1,60 @@
+Step 1: Install Python
+Download and install Python 3.10 or newer from python.org. During installation on Windows, check "Add Python to PATH".
+
+Verify it installed:
+
+
+Step 2: Install Ollama and pull a model
+Download Ollama from ollama.com and install it.
+Start Ollama in a terminal:
+
+In another terminal, pull the model the app uses:
+
+Note: The app is configured to use llama3.2:3b by default. You can change it in src/rag_grounded_chatbot/config.py if you prefer a different model.
+
+Keep Ollama running in the background — the app needs it.
+
+Step 3: Set up the project
+Extract or copy the project folder to your machine. Then open a terminal in the project root:
+
+
+Create a virtual environment (recommended)
+
+Install dependencies
+
+Or if you prefer not to use editable mode:
+
+
+If pip install -e . fails, run pip install for each package listed in pyproject.toml under [project.dependencies].
+
+Step 4: Add your PDF
+Place your PDF file(s) in:
+
+
+You can drop one or more PDFs or TXT files there.
+
+Step 5: Run the app
+
+You should see output like:
+
+
+Then open your browser to:
+
+
+Step 6: Use the chatbot
+Index Documents — Click the button to process your PDFs. This extracts text, splits it into chunks, detects sections, and builds the vector index.
+Ask a question — Type your question in the chat box.
+View receipts — Answers include inline citations like [source: yourpaper.pdf#p5]. The Receipts panel on the right lists each source, page number, and quoted snippet so you can verify the answer.
+Project structure reference
+
+Troubleshooting
+Problem	Solution
+ollama: command not found	Ollama not installed or not in PATH. Install from ollama.com
+Connection refused on localhost:11434	Ollama isn't running. Run ollama serve first
+ModuleNotFoundError	Run pip install -e . in the project folder
+Port 7860 already in use	Close another instance of the app, or change the port in app.py
+No chunks from PDF	Make sure the PDF has a digital text layer (not just scanned images)
+To stop the app
+Press Ctrl+C in the terminal where python app.py is running.
+
+That's it — once Ollama is running and dependencies are installed, python app.py is all you need to launch the chatbot.
