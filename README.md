@@ -1,9 +1,9 @@
 # 🧠 RAG + Citation Grounding — Answers with Receipts
 
-[![Python](https://img.shields.io/badge/Python-3.14-3776ab?style=flat-square&logo=python)](https://www.python.org/)
-[![Gradio](https://img.shields.io/badge/Gradio-4.x-1f6feb?style=flat-square&logo=gradio)](https://gradio.app/)
-[![Ollama](https://img.shields.io/badge/Ollama-Local%20LLM-e85c3f?style=flat-square&logo=ollama)](https://ollama.com/)
-[![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector%20Store-4a148c?style=flat-square&logo=chromadb)](https://www.trychroma.com/)
+[![Python](https://img.shields.io/badge/Python-3.14-3776ab?style=flat-square)](https://www.python.org/)
+[![Gradio](https://img.shields.io/badge/Gradio-4.x-1f6feb?style=flat-square)](https://gradio.app/)
+[![Ollama](https://img.shields.io/badge/Ollama-Local%20LLM-e85c3f?style=flat-square)](https://ollama.com/)
+[![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector%20Store-4a148c?style=flat-square)](https://www.trychroma.com/)
 [![llama-index](https://img.shields.io/badge/llama--index-RAG%20Framework-005ca9?style=flat-square)](https://docs.llamaindex.ai/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
