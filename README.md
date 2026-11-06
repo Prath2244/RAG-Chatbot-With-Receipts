@@ -1,7 +1,6 @@
 # 🧠 RAG + Citation Grounding — Answers with Receipts
 
-[![Python](https://img.shields.io/badge/Python-3.14-3776AB?style=flat-square&logo=python)](https://www.python.org/)
-[![Gradio](https://img.shields.io/badge/Gradio-4.x-F97316?style=flat-square&logo=gradio)](https://www.gradio.app/)
+[![Python](https://img.shields.io/badge/Python-3.14-3776AB?style=flat-square&logo=python)](https://www.python.org/)[![Gradio](https://img.shields.io/badge/Gradio-4.x-F97316?style=flat-square&logo=gradio)](https://www.gradio.app/)
 [![Ollama](https://img.shields.io/badge/Ollama-Local%20LLM-000000?style=flat-square&logo=ollama)](https://ollama.com/)
 [![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector%20Store-4A148C?style=flat-square)](https://www.trychroma.com/)
 [![LlamaIndex](https://img.shields.io/badge/LlamaIndex-RAG%20Framework-005CA9?style=flat-square)](https://docs.llamaindex.ai/)
