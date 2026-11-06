@@ -1,10 +1,15 @@
 # 🧠 RAG + Citation Grounding — Answers with Receipts
 
-[![Python](https://img.shields.io/badge/Python-3.14-3776ab?style=flat-square)](https://www.python.org/)
-[![Gradio](https://img.shields.io/badge/Gradio-4.x-1f6feb?style=flat-square)](https://gradio.app/)
-[![Ollama](https://img.shields.io/badge/Ollama-Local%20LLM-e85c3f?style=flat-square)](https://ollama.com/)
-[![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector%20Store-4a148c?style=flat-square)](https://www.trychroma.com/)
-[![llama-index](https://img.shields.io/badge/llama--index-RAG%20Framework-005ca9?style=flat-square)](https://docs.llamaindex.ai/)
+[![Python](https://img.shields.io/badge?label=Python&message=3.14&color=3776AB&style=flat-square)](https://www.python.org/)
+
+[![Gradio](https://img.shields.io/badge?label=Gradio&message=4.x&color=1F6FEB&style=flat-square)](https://www.gradio.app/)
+
+[![Ollama](https://img.shields.io/badge?label=Ollama&message=Local%20LLM&color=E85C3F&style=flat-square)](https://ollama.com/)
+
+[![ChromaDB](https://img.shields.io/badge?label=ChromaDB&message=Vector%20Store&color=4A148C&style=flat-square)](https://www.trychroma.com/)
+
+[![LlamaIndex](https://img.shields.io/badge?label=LlamaIndex&message=RAG%20Framework&color=005CA9&style=flat-square)](https://docs.llamaindex.ai/)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 > A from-scratch RAG chatbot where **every answer is verifiable**. Unlike a basic RAG bot that returns a bare answer string, this project ingests documents with page-level provenance, prompts the model to cite every claim inline, parses those citations, and renders answer + receipts side by side in Gradio so users can verify each answer against the original document.
