@@ -1,0 +1,1 @@
+"""RAG + Citation Grounding chatbot — answers with receipts."""
